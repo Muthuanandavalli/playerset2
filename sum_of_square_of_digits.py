@@ -1,7 +1,7 @@
-n=int(input())
+N=int(input())
 s=0
-while n>0:
+while N>0:
     r=n%10
     s=s+(r*r)
-    n=n//10
+    N=N//10
 print(s)
